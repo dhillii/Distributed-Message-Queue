@@ -13,7 +13,7 @@ struct msg_buffer {
 int main() 
 { 
     key_t key; 
-    int msgid; 
+    int msg_id; 
   
     // ftok generates a unique key 
     key = ftok("progfile", 65); 
